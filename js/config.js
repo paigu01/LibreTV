@@ -22,10 +22,86 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    source1: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源',
+        adult: true  // 可选，如果API_SITES不需要这个字段
+    },
+    source2: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳',
+    },
+    source3: {
+        api: 'http://cj.rycjapi.com/api.php/provide/vod',
+        name: '如意资源',
+    },
+    source4: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源',
+    },
+    source5: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯资源',
+    },
+    source6: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡影视',
+    },
+    source7: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360资源',
+    },
+    source8: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源',
+    },
+    source9: {
+        api: 'https://wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源',
+    },
+    source10: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速资源',
+    },
+    source11: {
+        api: 'https://dbzy.tv/api.php/provide/vod',
+        name: '豆瓣资源',
+    },
+    source12: {
+        api: 'https://mozhuazy.com/api.php/provide/vod',
+        name: '魔爪资源',
+    },
+    source13: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: '魔都资源',
+    },
+    source14: {
+        api: 'https://api.zuidapi.com/api.php/provide/vod',
+        name: '最大资源',
+    },
+    source15: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源',
+    },
+    source16: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: '无尽资源',
+    },
+    source17: {
+        api: 'https://wwzy.tv/api.php/provide/vod',
+        name: '旺旺短剧',
+    },
+    source18: {
+        api: 'https://ikunzyapi.com/api.php/provide/vod',
+        name: 'iKun资源',
+    },
+    source19: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源站',
+    },
+    source20: {
+        api: 'https://zy.xmm.hk/api.php/provide/vod',
+        name: '小猫咪资源',
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
